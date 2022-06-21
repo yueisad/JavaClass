@@ -37,5 +37,5 @@ public class ShoppingCartPrinter {
 
         System.out.println("The total price is " + itemInfo1.totalPrice(itemPrice1, itemQuantity1) + itemInfo2.totalPrice(itemPrice2, itemQuantity2));
     }
-
+    //hello
 }
