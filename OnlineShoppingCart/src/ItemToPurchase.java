@@ -34,6 +34,12 @@ public class ItemToPurchase {
     public int getQuantity() {
         return itemQuantity;
     }
+    
+    public int totalPrice(int itemPrice, int itemQuantity) {
+        int totalPrice = itemPrice * itemQuantity;
+        return totalPrice; 
+
+    }
 
     
 }
