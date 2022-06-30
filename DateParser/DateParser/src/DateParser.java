@@ -79,8 +79,6 @@ public class DateParser {
 		//for each line in the input file, read in the filename and output the modified filename into the output file
 		
 	
-      
-      
       while (fileScanner.hasNext()) {
     	  userString = fileScanner.nextLine();
           System.out.println(userString);
