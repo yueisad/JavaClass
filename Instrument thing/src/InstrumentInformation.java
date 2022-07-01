@@ -1,3 +1,4 @@
+import java.io.File;
 import java.util.Scanner;
 
 //TO DO
@@ -8,7 +9,8 @@ import java.util.Scanner;
 public class InstrumentInformation {
 	
    public static void main(String[] args) {
-      
+	File text = new File("/Users/aldenpark/Github/JavaClass/InstrumentThing/Instruments.txt");
+
 
       getInstrumentInfo();
 
@@ -20,7 +22,8 @@ public class InstrumentInformation {
 	   String instrumentType, manufacturerName, stringInstrumentName, stringManufacturer;
 	      int yearBuilt, cost, stringYearBuilt, stringCost, numStrings, numFrets;
 	   
-	   Scanner scnr = new Scanner(System.in);
+
+	   Scanner scnr = new Scanner(text);
 	   
 	   
 	   System.out.print("Enter String Instrument Type: ");
