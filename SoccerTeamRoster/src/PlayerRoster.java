@@ -13,7 +13,7 @@ public class PlayerRoster {
     }
 
     public static void playerInfo(int[] jersey, int rating[], int min) {
-        System.out.println(((min > 0) ?("ABOVE " + min) : ("ROSTER")));
+        System.out.println(((min > 0) ? ("ABOVE " + min) : ("ROSTER")));
         for (int i = 0; i < 5; i++) {
             if (rating[i] > min) {
                 System.out.println("Player " + (i + 1) + " -- Jersey number: " + jersey[i] + ", Rating: " + rating[i]);
